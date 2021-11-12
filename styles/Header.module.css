@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #333;
+  height: 60px;
+  padding: 0 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+.header a:hover {
+  color: brown;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.logo a {
+  color: red;
+  text-transform: uppercase;
+}
+.header ul {
+  margin: 20px 0;
+  flex-direction: column;
+  text-align: center;
+}
